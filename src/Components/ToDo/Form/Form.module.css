@@ -1,0 +1,40 @@
+.Form {
+  margin: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.Form form {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Form input {
+  font-size: 1.8rem;
+  border: 0;
+  padding: 1rem;
+  border-bottom: 1px solid #2289f0;
+  transition: all 0.4s ease-in-out;
+  position: relative;
+  margin: 0 1rem;
+  background-color: #eef3f8;
+  border-radius: 0.4rem;
+  width: max(50%, 28rem);
+}
+
+.Form input:focus {
+  outline: none;
+}
+.Form Button {
+  font-size: 2rem;
+  background-color: white;
+  border: 1px solid #2289f0;
+  background-color: #2289f0;
+  border-radius: 0.8rem;
+  padding: 0.8rem 1.6rem;
+  color: white;
+  transition: all 0.4s ease-in-out;
+  position: relative;
+}

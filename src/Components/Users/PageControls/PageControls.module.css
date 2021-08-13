@@ -1,0 +1,30 @@
+.PageControls{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    color: var(--clr-red);
+    bottom: 0;
+    margin: auto;
+    margin:2rem;
+
+}
+.PageControls>div{
+    margin:0.5rem 0.8rem;
+}
+.Arrow{
+    color: var(--clr-red);
+    border: 1px solid var(--clr-red);
+    padding:0.6rem 1.2rem;
+    /* padding-bottom:0.6rem; */
+    border-radius: 0.4rem;
+    transition: all 0.2s ease-in-out;
+}
+.Arrow:hover{
+    background-color: rgb(0, 0, 0, 0.1);
+}
+.Page{
+    width: 4rem;
+    font-size:2.2rem;
+    text-align: center;
+    border-bottom: 2px solid  var(--clr-red) ;
+}

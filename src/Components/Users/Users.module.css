@@ -1,0 +1,11 @@
+.Users {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: max(70%, 38rem);
+  margin: auto;
+  
+}
+.Spinner {
+  height: 20rem;
+}
